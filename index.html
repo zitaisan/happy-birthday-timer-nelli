@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "index.css">
+    <title>To Nelli</title>
+    
+</head>
+<body class="webpage">
+    <header class="header">
+        <div class="title">
+            <p class="title-h style-p"></p>
+            <svg width="300" height="270" viewBox="0 0 24 24" class="heart-frame">
+                <defs>
+                    <clipPath id="heartClip">
+                        <path d="M12 22C6 16.5 1 11.5 1 6.5 
+                                 C1 3 3.5 1 6.5 1 
+                                 C9 1 11 3 12 5 
+                                 C13 3 15 1 17.5 1 
+                                 C20.5 1 23 3 23 6.5 
+                                 C23 11.5 18 16.5 12 22Z" />
+                    </clipPath>
+                </defs>
+            
+                <!-- Основное изображение внутри сердца -->
+                <image xlink:href="images/photoSEC.jpg" width="100%" height="100%" clip-path="url(#heartClip)" />
+            
+                <!-- Розовая обводка -->
+                <path d="M12 22C6 16.5 1 11.5 1 6.5 
+                         C1 3 3.5 1 6.5 1 
+                         C9 1 11 3 12 5 
+                         C13 3 15 1 17.5 1 
+                         C20.5 1 23 3 23 6.5 
+                         C23 11.5 18 16.5 12 22Z" 
+                      fill="none" stroke="rgb(252, 176, 189)" stroke-width="1.6"/>
+            </svg>
+            
+            
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="images/photo1.jpg" alt="Фото 1"></div>
+                <div class="carousel-item"><img src="images/photo2.jpg" alt="Фото 2"></div>
+                <div class="carousel-item"><img src="images/photo3.jpg" alt="Фото 3"></div>
+                <div class="carousel-item"><img src="images/photo4.jpg" alt="Фото 4"></div>
+                <div class="carousel-item"><img src="images/photo5.jpg" alt="Фото 5"></div>
+                <div class="carousel-item"><img src="images/photo6.jpg" alt="Фото 6"></div>
+                <div class="carousel-item"><img src="images/photo7.jpg" alt="Фото 7"></div>
+                <div class="carousel-item"><img src="images/photo8.jpg" alt="Фото 8"></div>
+                <div class="carousel-item"><img src="images/photo9.jpg" alt="Фото 9"></div>
+                <div class="carousel-item"><img src="images/photo10.jpg" alt="Фото 10"></div>
+                <div class="carousel-item"><img src="images/photo11.jpg" alt="Фото 11"></div>
+                <div class="carousel-item"><img src="images/photo12.jpg" alt="Фото 12"></div>
+                <div class="carousel-item"><img src="images/photo13.jpg" alt="Фото 13"></div>
+                <div class="carousel-item"><img src="images/photo14.jpg" alt="Фото 14"></div>
+                <div class="carousel-item"><img src="images/photo15.jpg" alt="Фото 15"></div>
+                <div class="carousel-item"><img src="images/photo16.jpg" alt="Фото 16"></div>
+                <div class="carousel-item"><img src="images/photo17.jpg" alt="Фото 17"></div>
+                <div class="carousel-item"><img src="images/photo18.jpg" alt="Фото 18"></div>
+                <div class="carousel-item"><img src="images/photo19.jpg" alt="Фото 19"></div>
+                <div class="carousel-item"><img src="images/photo20.jpg" alt="Фото 20"></div>
+                <div class="carousel-item"><img src="images/photo21.jpg" alt="Фото 21"></div>
+                <div class="carousel-item"><img src="images/photo22.jpg" alt="Фото 22"></div>
+                <div class="carousel-item"><img src="images/photo23.jpg" alt="Фото 23"></div>
+                <div class="carousel-item"><img src="images/photo24.jpg" alt="Фото 24"></div>
+                <div class="carousel-item"><img src="images/photo25.jpg" alt="Фото 25"></div>
+                <div class="carousel-item"><img src="images/photo26.jpg" alt="Фото 26"></div>
+                <div class="carousel-item"><img src="images/photo27.jpg" alt="Фото 27"></div>
+            </div>
+            <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+        <div class="content-part">
+            <section class="heading content">
+                <p class="content-h style-p ">your birthday is</p>
+            </section>
+            <section class="timer-model content title">
+                <p class="style-p fifty" id="timer"></p>
+                <three-model class="model"></three-model> </section>
+        </div>
+    </main>
+    
+
+    <!-- Подключаем Three.js и OrbitControls с CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+    <!-- Подключаем основной скрипт -->
+    <script src="script.js"></script>
+    <script src="birthday-words.js"></script>
+    <script src="text-script.js"></script>
+    <script src="book.js"></script>
+    
+    <script src="timer.js"></script>
+</body>
+</html>
