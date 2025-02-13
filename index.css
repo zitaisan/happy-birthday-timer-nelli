@@ -150,20 +150,57 @@
 /* Адаптивность */
 @media (max-width: 1200px) {
     :root {
-        --visible-items: 3; /* 3 изображения */
+        --visible-items: 3;
     }
 }
 
 @media (max-width: 900px) {
     :root {
-        --visible-items: 2; /* 2 изображения */
+        --visible-items: 2;
     }
 }
 
 @media (max-width: 600px) {
     :root {
-        --visible-items: 1; /* 1 изображение */
+        --visible-items: 1;
     }
 }
 
+@media (max-width: 768px) {
+    .style-p {
+        font-size: 6vh;
+    }
 
+    .header {
+        margin: 2vh 2vw;
+    }
+
+    .heart-frame {
+        width: 60%;
+    }
+
+    .fifty {
+        font-size: 5vh;
+    }
+
+    .carousel-control {
+        font-size: 30px;
+    }
+
+    .carousel-item img {
+        height: 30vh;
+    }
+
+    .content {
+        margin-top: 5vh;
+        flex-direction: column;
+    }
+
+    .timer-model {
+        flex-direction: column;
+    }
+
+    .model {
+        flex: 1 1 100%;
+    }
+}
