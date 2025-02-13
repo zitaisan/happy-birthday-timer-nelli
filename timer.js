@@ -11,7 +11,7 @@ function updateCountdown() {
 
     // Display the countdown
     const timerElement = document.getElementById("timer");
-    timerElement.innerHTML = `<span>${days}</span> days <br>
+    timerElement.innerHTML = `in<br> <span>${days}</span> days <br>
      <span>${hours}</span> hours<br> <span>${minutes}</span> minutes <br><span>${seconds}</span> seconds<br>`;
 
     // If the countdown is finished, display a message

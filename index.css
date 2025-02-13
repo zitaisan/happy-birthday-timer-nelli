@@ -34,6 +34,7 @@ three-model{
     width:100%;
     height: auto;
     margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 :root {
@@ -133,7 +134,7 @@ three-model{
     align-items: center;
 }
 .fifty span{
-    color: #362795;
+    color: #0D8097;
 
 }
 .heading {
