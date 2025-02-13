@@ -1,18 +1,9 @@
 @import url(font.css);
-
-
-
-
 .webpage {
     
     background-color: white;
     
 }
-
-
-
-
-
 .header{
     margin: 5vh 15vh;
 }
@@ -32,17 +23,12 @@ three-model{
     height:auto;
 
 }
-
-
 .style-p {
     font-size: 20vh;
     font-weight: bold;
     margin: 0;
-   
     font-family: 'Kudry';
     color: rgb(252, 176, 189);
-
-
 }
 .main {
     width:100%;
@@ -117,6 +103,15 @@ three-model{
     width:100%;
     text-align: center;
 }
+
+.time{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center; /* Выравнивание по центру по вертикали */
+    justify-content: space-between; /* Размещаем элементы с максимальным расстоянием */
+    width: 100%; /* Растягиваем на всю ширину */
+    /* padding: 20px; Отступы для красоты */
+}
 .timer-model {
     display: flex;
     align-items: center; /* Выравнивание по центру по вертикали */
@@ -127,15 +122,20 @@ three-model{
 .fifty {
     flex: 1; /* Занимает 50% */
     text-align: center; /* Выравнивание текста */
-    font-size: 10vh; /* Сделал поменьше, если нужно, увеличь */
+    font-size: 15vh; /* Сделал поменьше, если нужно, увеличь */
 }
 
 .model {
-    flex: 1; /* Занимает 50% */
+     /* Занимает 50% */
+    flex:1;
     display: flex;
     justify-content: center; /* Центрирование модели */
+    align-items: center;
 }
+.fifty span{
+    color: #362795;
 
+}
 .heading {
     margin: 10vh auto;
     display: flex;
@@ -143,6 +143,7 @@ three-model{
     justify-content: center; 
     
 }
+
 /* Адаптивность */
 @media (max-width: 1200px) {
     :root {
