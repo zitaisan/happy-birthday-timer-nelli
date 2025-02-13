@@ -15,9 +15,7 @@
     /* padding: 20px; Отступы для красоты */
     
 }
-three-model{
 
-}
 .heart-frame {
     width: 50%;
     height:auto;
@@ -92,6 +90,9 @@ three-model{
 .next {
     right: 10px;
 }
+.content-part{
+    margin-top: 20vh;
+}
 .content{
     margin-top: 15vh;
     display: flex;
@@ -100,6 +101,7 @@ three-model{
     width: 100%; /* Растягиваем на всю ширину */
     /* padding: 20px; Отступы для красоты */
 }
+
 .content-h{
     width:100%;
     text-align: center;
