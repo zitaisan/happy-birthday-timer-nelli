@@ -1,1 +1,1 @@
-Site lives on [https://zitaisan.github.io/happy-birthday-timer-nelli/](HERE)
+Site lives on [HERE](https://zitaisan.github.io/happy-birthday-timer-nelli/)
